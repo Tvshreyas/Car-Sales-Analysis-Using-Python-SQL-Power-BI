@@ -59,30 +59,29 @@ This project transforms raw sales data into actionable insights by identifying:
 📁 Car-Sales-Analysis-Using-Python-SQL-Power-BI
 │
 ├── data/
-│   ├── raw/                      # Original CSV/Excel files
-│   ├── cleaned/                  # Processed datasets after cleaning
-│   └── sample_data.csv           # Example dataset
+│ ├── raw/ # Original CSV/Excel files
+│ ├── cleaned/ # Processed datasets after cleaning
+│ └── sample_data.csv # Example dataset
 │
 ├── sql/
-│   ├── Car_Sales_Cleaning.sql    # Queries for cleaning raw data
-│   ├── Car_Sales_KPIs.sql        # KPI calculations & aggregations
-│   └── Car_Sales_Insights.sql    # Analytical queries for findings
+│ ├── Car_Sales_Cleaning.sql # Queries for cleaning raw data
+│ ├── Car_Sales_KPIs.sql # KPI calculations & aggregations
+│ └── Car_Sales_Insights.sql # Analytical queries for findings
 │
 ├── python_scripts/
-│   ├── data_cleaning.py          # Script to clean and preprocess data
-│   ├── eda_visualization.py      # Python visualizations (matplotlib/seaborn)
-│   └── export_to_sql.py          # Export cleaned data into SQL tables
+│ ├── data_cleaning.py # Script to clean and preprocess data
+│ ├── eda_visualization.py # Python visualizations (matplotlib/seaborn)
+│ └── export_to_sql.py # Export cleaned data into SQL tables
 │
 ├── powerbi/
-│   ├── car_sales_analysis.pbix   # Power BI dashboard
-│   └── images/                   # Dashboard screenshots
+│ ├── car_sales_analysis.pbix # Power BI dashboard
+│ └── images/ # Dashboard screenshots
 │
 ├── notebooks/
-│   └── Car_Sales_Analysis.ipynb  # Jupyter Notebook with full workflow
+│ └── Car_Sales_Analysis.ipynb # Jupyter Notebook with full workflow
 │
-├── README.md                     # Project documentation
-└── requirements.txt              # Python dependencies
-
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
 ---
 
 ## 🧹 Data Cleaning & Preparation  
